@@ -66,7 +66,7 @@
       <h1><a href="/">鸟鸣与夏花的星间小憩</a></h1>
       <div id="subtitle-box">
         
-          <span id="subtitle">于此存放我与星星的一切交汇</span>
+        <span id="subtitle"></span>
         
       </div>
       <div>
@@ -81,9 +81,26 @@
 
 
 
+<script src="https://cdn.staticfile.org/typed.js/2.0.12/typed.min.js"></script>
+
 
 <!-- Subtitle -->
 
+  <script>
+    try {
+      var typed = new Typed("#subtitle", {
+        strings: ['只不过是茫茫群星中的又一个角落', '旅途辛苦了，喝一杯吧？', ''],
+        startDelay: 0,
+        typeSpeed: 200,
+        loop: true,
+        backSpeed: 100,
+        showCursor: true
+      });
+    } catch (err) {
+      console.log(err)
+    }
+  </script>
+  
 <div id="main">
   <section class="outer">
   
